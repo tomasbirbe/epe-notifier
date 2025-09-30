@@ -1,0 +1,39 @@
+{
+	"name": "epe-notifier",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tsx main.mts"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.15.1",
+	"devDependencies": {
+		"@eslint/js": "^9.36.0",
+		"@stylistic/eslint-plugin": "^5.4.0",
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.6.0",
+		"@types/node-telegram-bot-api": "^0.64.11",
+		"dotenv": "^17.2.3",
+		"eslint": "^9.36.0",
+		"eslint-plugin-check-file": "^3.3.0",
+		"eslint-plugin-import": "^2.32.0",
+		"eslint-plugin-prettier": "^5.5.4",
+		"globals": "^16.4.0",
+		"jiti": "^2.6.0",
+		"prettier": "^3.6.2",
+		"tsx": "^4.20.6",
+		"typescript": "^5.9.2",
+		"typescript-eslint": "^8.45.0"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.19.5",
+		"express": "^5.1.0",
+		"hono": "^4.9.9",
+		"install": "^0.13.0",
+		"node-telegram-bot-api": "^0.66.0",
+		"playwright": "^1.55.1"
+	}
+}
